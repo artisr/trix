@@ -15,6 +15,11 @@ Trix.config.toolbar =
 
       <span class="trix-button-group trix-button-group--block-tools" data-trix-button-group="block-tools">
         <button type="button" class="trix-button trix-button--icon trix-button--icon-heading-1" data-trix-attribute="heading1" title="#{lang.heading1}" tabindex="-1">#{lang.heading1}</button>
+        <button type="button" class="trix-button" data-trix-attribute="heading2">h2</button>
+        <button type="button" class="trix-button" data-trix-attribute="heading3">h3</button>
+        <button type="button" class="trix-button" data-trix-attribute="heading4">h4</button>
+        <button type="button" class="trix-button" data-trix-attribute="heading5">h5</button>
+        <button type="button" class="trix-button" data-trix-attribute="heading6">h6</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-quote" data-trix-attribute="quote" title="#{lang.quote}" tabindex="-1">#{lang.quote}</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-code" data-trix-attribute="code" title="#{lang.code}" tabindex="-1">#{lang.code}</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-bullet-list" data-trix-attribute="bullet" title="#{lang.bullets}" tabindex="-1">#{lang.bullets}</button>
