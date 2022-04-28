@@ -2,6 +2,21 @@ Trix.config.blockAttributes = attributes =
   default:
     tagName: "div"
     parse: false
+  textstart:
+    tagName: "div",
+    className: "text-start"
+    terminal: true
+    breakOnReturn: true
+  textcenter:
+    tagName: "div",
+    className: "text-center"
+    terminal: true
+    breakOnReturn: true
+  textend:
+    tagName: "div",
+    className: "text-end"
+    terminal: true
+    breakOnReturn: true
   quote:
     tagName: "blockquote"
     nestable: true
