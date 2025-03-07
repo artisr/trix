@@ -337,10 +337,12 @@ export default class HTMLParser extends BasicObject {
         const attrConfig = config.blockAttributes[attribute]
         if (attrConfig.parse !== false) {
           if (tagName(element) === attrConfig.tagName) {
-            if (attrConfig.test?.(element) || !attrConfig.test) {
-              attributes.push(attribute)
-              if (attrConfig.listAttribute) {
-                attributes.push(attrConfig.listAttribute)
+            if (!attrConfig.className || element.classList.contains(attrConfig.className)) {
+              if (attrConfig.test?.(element) || !attrConfig.test) {
+                attributes.push(attribute)
+                if (attrConfig.listAttribute) {
+                  attributes.push(attrConfig.listAttribute)
+                }
               }
             }
           }

@@ -17,6 +17,10 @@ export default {
       return style.fontStyle === "italic"
     },
   },
+  span: {
+    tagName: "span",
+    inheritable: true
+  },
   href: {
     groupTagName: "a",
     parser(element) {
