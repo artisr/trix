@@ -16,6 +16,10 @@ $quote-padding-start: 0.6em;
     line-height: 1.2;
   }
 
+  span {
+    background: #cecece;
+  }
+
   blockquote {
     border: 0 solid #ccc;
     border-left-width: $quote-border-width;
