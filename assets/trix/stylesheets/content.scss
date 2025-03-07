@@ -4,6 +4,8 @@ $quote-padding-start: 0.6em;
 
 .trix-content {
   line-height: 1.5;
+  overflow-wrap: break-word;
+  word-break: break-word;
 
   * {
     box-sizing: border-box;
@@ -14,10 +16,6 @@ $quote-padding-start: 0.6em;
   h1 {
     font-size: 1.2em;
     line-height: 1.2;
-  }
-
-  span {
-    background: #cecece;
   }
 
   blockquote {
@@ -81,7 +79,7 @@ $quote-padding-start: 0.6em;
 
     .attachment__name + .attachment__size {
       &::before {
-        content: ' · ';
+        content: ' \2022 ';
       }
     }
   }
