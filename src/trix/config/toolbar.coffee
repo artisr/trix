@@ -8,6 +8,7 @@ Trix.config.toolbar =
         <button type="button" class="trix-button trix-button--icon trix-button--icon-italic" data-trix-attribute="italic" data-trix-key="i" title="#{lang.italic}" tabindex="-1">#{lang.italic}</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-strike" data-trix-attribute="strike" title="#{lang.strike}" tabindex="-1">#{lang.strike}</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-link" data-trix-attribute="href" data-trix-action="link" data-trix-key="k" title="#{lang.link}" tabindex="-1">#{lang.link}</button>
+        <button type="button" class="trix-button" data-trix-attribute="span" data-trix-key="s" title="#{lang.span}" tabindex="-1">SPAN</button>
         <button type="button" class="trix-button" data-trix-attribute="textstart">LEFT</button>
         <button type="button" class="trix-button" data-trix-attribute="textcenter">CENTER</button>
         <button type="button" class="trix-button" data-trix-attribute="textend">RIGHT</button>

@@ -10,6 +10,7 @@ Trix.config.lang =
   indent: "Increase Level"
   italic: "Italic"
   link: "Link"
+  span: "Span"
   numbers: "Numbers"
   outdent: "Decrease Level"
   quote: "Quote"
